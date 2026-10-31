@@ -28,11 +28,10 @@ export default function MessageList({
       behavior: prefersReducedMotion ? 'instant' : 'smooth',
     })
   }, [messages, isTyping])
-
   const prefersReducedMotion =
-    typeof window !== 'undefined' &&
-    window.matchMedia('(prefers-reduced-motion: reduce)').matches
-
+  typeof window !== 'undefined' &&
+  typeof window.matchMedia === 'function' &&
+  window.matchMedia('(prefers-reduced-motion: reduce)').matches
   return (
     <div className="flex-1 overflow-y-auto px-3 py-2">
       {messages.length === 0 && (
