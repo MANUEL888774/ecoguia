@@ -1,5 +1,5 @@
 import { describe, it, expect, vi, beforeEach, afterEach } from 'vitest'
-import { render, screen, fireEvent, act, waitFor } from '@testing-library/react'
+import { render, screen, fireEvent, act } from '@testing-library/react'
 import { MemoryRouter } from 'react-router-dom'
 import ChatWidget from './ChatWidget'
 
@@ -63,7 +63,7 @@ describe('ChatWidget', () => {
     expect(screen.getByText('¿Qué va en la bolsa blanca?')).toBeInTheDocument()
   })
 
-  it('aparece respuesta del bot tras el indicador de escritura', async () => {
+  it('aparece respuesta del bot tras el indicador de escritura', () => {
     renderWidget()
     fireEvent.click(screen.getByRole('button', { name: /abrir asistente/i }))
 
@@ -79,12 +79,10 @@ describe('ChatWidget', () => {
       vi.advanceTimersByTime(600)
     })
 
-    // Bot response should now be visible
-    await waitFor(() => {
-      expect(screen.queryByLabelText(/está escribiendo/i)).not.toBeInTheDocument()
-    })
+    // Typing indicator should be gone and bot message arrived
+    expect(screen.queryByLabelText(/está escribiendo/i)).not.toBeInTheDocument()
 
-    // There should be at least one bot message (feedback buttons present)
+    // Feedback buttons confirm a bot message exists
     expect(screen.getAllByRole('button', { name: /fue útil/i }).length).toBeGreaterThan(0)
   })
 
