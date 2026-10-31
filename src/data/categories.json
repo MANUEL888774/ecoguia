@@ -1,0 +1,204 @@
+[
+  {
+    "id": "organicos",
+    "name": "Orgánicos",
+    "color": "#4ade80",
+    "icon": "🍃",
+    "description": "Residuos de origen vegetal y animal que se pueden compostar o aprovechar como abono. Incluye restos de cocina y jardín.",
+    "binColor": "verde",
+    "accepts": [
+      "Cáscaras de frutas y verduras",
+      "Restos de comida cocida o cruda",
+      "Posos de café y filtros de papel",
+      "Bolsas de té usadas",
+      "Restos de plantas y flores",
+      "Aserrín y virutas de madera sin tratar",
+      "Cáscaras de huevo",
+      "Restos de jardín: hojas, ramas pequeñas"
+    ],
+    "rejects": [
+      "Carnes y pescados (generan olores y plagas)",
+      "Aceites y grasas de cocina",
+      "Productos lácteos",
+      "Excrementos de mascotas"
+    ],
+    "tips": [
+      "Escurre bien los líquidos antes de depositarlos para evitar malos olores.",
+      "Corta los residuos en trozos pequeños para acelerar la descomposición.",
+      "Puedes hacer compost en casa con un recipiente ventilado en el balcón.",
+      "Mezcla residuos húmedos con secos (hojas, cartón) para un compost equilibrado."
+    ]
+  },
+  {
+    "id": "plastico",
+    "name": "Plástico",
+    "color": "#facc15",
+    "icon": "♻️",
+    "description": "Materiales plásticos recuperables como botellas, envases y empaques limpios y secos. Deben estar libres de residuos de alimentos.",
+    "binColor": "blanca",
+    "accepts": [
+      "Botellas de agua y bebidas (PET)",
+      "Envases de champú, jabón y limpiadores (HDPE)",
+      "Bolsas plásticas limpias",
+      "Envases de yogur y margarina",
+      "Tapas de plástico",
+      "Bandejas de icopor limpias",
+      "Tuberías y cañerías de PVC"
+    ],
+    "rejects": [
+      "Envases con restos de comida",
+      "Plásticos sucios con aceite o grasa",
+      "Mezclilla (compuesto de plástico y tela)",
+      "Blísteres de medicamentos"
+    ],
+    "tips": [
+      "Enjuaga los envases antes de depositarlos; no es necesario que queden perfectos.",
+      "Aplana las botellas para ahorrar espacio en el contenedor.",
+      "Retira las tapas de las botellas: pueden ser de un plástico diferente.",
+      "Las bolsas plásticas limpias pueden llevarse a puntos de acopio especiales."
+    ]
+  },
+  {
+    "id": "papel-carton",
+    "name": "Papel y Cartón",
+    "color": "#fb923c",
+    "icon": "📦",
+    "description": "Papel de oficina, periódicos, revistas, cajas de cartón y empaques de papel. Deben estar secos y sin contaminación de alimentos.",
+    "binColor": "blanca",
+    "accepts": [
+      "Periódicos y revistas",
+      "Papel de oficina e impresoras",
+      "Cajas de cartón corrugado",
+      "Empaques de cereal y cajas de cartón delgado",
+      "Sobres de papel",
+      "Rollos de papel higiénico y de cocina",
+      "Bolsas de papel kraft"
+    ],
+    "rejects": [
+      "Papel y cartón mojado o sucio con grasa",
+      "Papel encerado o plastificado",
+      "Papel térmico (tiquetes de caja)",
+      "Pañuelos y papel higiénico usados"
+    ],
+    "tips": [
+      "Aplana y desdobla las cajas para optimizar el espacio.",
+      "Retira las grapas metálicas de los documentos si es posible.",
+      "Guarda el papel en un lugar seco para que no pierda su valor reciclable.",
+      "Los empaques de pizza con grasa no se pueden reciclar; separa la parte limpia si la hay."
+    ]
+  },
+  {
+    "id": "vidrio",
+    "name": "Vidrio",
+    "color": "#22d3ee",
+    "icon": "🫙",
+    "description": "Botellas, frascos y envases de vidrio de cualquier color. El vidrio es 100% reciclable de forma indefinida sin perder calidad.",
+    "binColor": "blanca",
+    "accepts": [
+      "Botellas de vidrio de bebidas",
+      "Frascos de mermelada, salsas y conservas",
+      "Botellas de vino y licores",
+      "Frascos de cosméticos de vidrio",
+      "Tarros de vidrio de comida para bebés",
+      "Botellas de aceite de vidrio"
+    ],
+    "rejects": [
+      "Vidrio de ventanas o espejos (composición diferente)",
+      "Bombillas y lámparas fluorescentes",
+      "Vidrio templado o de seguridad",
+      "Cerámica y porcelana"
+    ],
+    "tips": [
+      "Enjuaga los frascos antes de depositarlos; no es necesario quitar las etiquetas.",
+      "Retira las tapas metálicas o plásticas y deposítalas en el contenedor correcto.",
+      "No mezcles vidrio roto con el contenedor normal; envuélvelo en papel para evitar cortes.",
+      "El vidrio de color (verde, marrón) también es reciclable junto al transparente."
+    ]
+  },
+  {
+    "id": "metales",
+    "name": "Metales",
+    "color": "#94a3b8",
+    "icon": "🥫",
+    "description": "Latas de alimentos y bebidas, papel aluminio y otros metales recuperables. El aluminio es uno de los materiales más valiosos en el reciclaje.",
+    "binColor": "blanca",
+    "accepts": [
+      "Latas de gaseosas y cervezas (aluminio)",
+      "Latas de conservas y atún (hojalata)",
+      "Papel aluminio limpio",
+      "Tapas metálicas de botellas y frascos",
+      "Aerosoles vacíos y sin presión",
+      "Ollas y utensilios de cocina sin recubrimiento especial"
+    ],
+    "rejects": [
+      "Latas con restos de comida o pintura",
+      "Pilas y baterías (residuo peligroso)",
+      "Cables y alambre eléctrico (requieren punto especializado)",
+      "Electrodomésticos (van a centros de acopio RAEE)"
+    ],
+    "tips": [
+      "Enjuaga las latas de conservas antes de reciclarlas.",
+      "Aplasta las latas de aluminio para ahorrar espacio.",
+      "Los aerosoles deben estar completamente vacíos antes de depositarlos.",
+      "El aluminio reciclado ahorra hasta el 95% de la energía frente al aluminio nuevo."
+    ]
+  },
+  {
+    "id": "peligrosos",
+    "name": "Peligrosos",
+    "color": "#f87171",
+    "icon": "⚠️",
+    "description": "Residuos que representan riesgo para la salud o el medio ambiente: pilas, aceites, medicamentos, pinturas y productos químicos.",
+    "binColor": "negra",
+    "accepts": [
+      "Pilas y baterías domésticas",
+      "Aceites de cocina usados",
+      "Medicamentos vencidos o no usados",
+      "Pinturas y solventes",
+      "Pesticidas y herbicidas domésticos",
+      "Termómetros de mercurio",
+      "Lámparas fluorescentes y de ahorro"
+    ],
+    "rejects": [
+      "Residuos ordinarios (van a la bolsa negra)",
+      "Electrónicos (tienen su propio punto RAEE)",
+      "Materiales reciclables limpios",
+      "Residuos de construcción (escombros)"
+    ],
+    "tips": [
+      "Nunca tires pilas en la basura ordinaria; llévales a los puntos de acopio en supermercados.",
+      "Los medicamentos vencidos deben devolverse a la farmacia o al programa 'Medicamentos Posconsumo'.",
+      "El aceite de cocina usado puede reciclarse; busca puntos de recolección en tu municipio.",
+      "Guarda los productos peligrosos en sus envases originales y bien cerrados."
+    ]
+  },
+  {
+    "id": "electronicos",
+    "name": "Electrónicos (RAEE)",
+    "color": "#818cf8",
+    "icon": "💻",
+    "description": "Residuos de Aparatos Eléctricos y Electrónicos (RAEE): computadores, celulares, electrodomésticos. Contienen materiales valiosos y tóxicos.",
+    "binColor": "negra",
+    "accepts": [
+      "Celulares y teléfonos",
+      "Computadores portátiles y de escritorio",
+      "Tabletas y e-readers",
+      "Televisores y monitores",
+      "Electrodomésticos pequeños (licuadoras, tostadoras)",
+      "Cargadores y cables",
+      "Impresoras y escáneres"
+    ],
+    "rejects": [
+      "Residuos ordinarios (no van junto con RAEE)",
+      "Pilas sueltas (tienen su propio punto de acopio)",
+      "Electrodomésticos de línea blanca en mal estado sin certificado",
+      "Residuos biológicos o peligrosos"
+    ],
+    "tips": [
+      "Antes de entregar tu celular, borra todos tus datos personales y desvincula tu cuenta.",
+      "Busca los puntos RAEE de marcas como Samsung, LG o Claro en Colombia.",
+      "Muchos municipios tienen jornadas de recolección de electrónicos gratuitas.",
+      "Los componentes electrónicos contienen oro, plata y cobre que se pueden recuperar."
+    ]
+  }
+]
