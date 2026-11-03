@@ -1,4 +1,4 @@
-import { useRef } from 'react'
+﻿import { useRef } from 'react'
 import { useChatbot } from '../../hooks/useChatbot'
 import ChatWindow from './ChatWindow'
 import faqsData from '../../data/faqs.json'
@@ -55,7 +55,7 @@ export default function ChatWidget() {
       {/* FAB button */}
       <button
         ref={fabRef}
-        aria-label="Abrir asistente de EcoGuía"
+        aria-label="Abrir asistente de EcoGuÃ­a"
         aria-expanded={isOpen}
         aria-controls="chat-panel"
         onClick={handleOpen}
@@ -63,7 +63,7 @@ export default function ChatWidget() {
           isOpen ? 'hidden' : ''
         }`}
       >
-        <span aria-hidden="true">💬</span>
+        <span aria-hidden="true">ðŸ’¬</span>
       </button>
 
       {/* Chat panel */}
@@ -80,7 +80,7 @@ export default function ChatWidget() {
             onSend={sendMessage}
             onClose={handleClose}
             onClear={clearHistory}
-            onSuggestedClick={handleSuggestedClick}
+            onSuggestedClick={handleSuggestedClick}            onSuggestionClick={handleSuggestedClick}
             onFeedback={handleFeedback}
             inputRef={inputRef}
           />

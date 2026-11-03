@@ -1,157 +1,157 @@
-[
+﻿[
   {
     "id": "faq-001",
-    "question": "¿Qué va en la bolsa blanca?",
-    "answer": "La bolsa blanca es para materiales reciclables secos y limpios: botellas plásticas, latas, frascos de vidrio, papel y cartón. Los residuos deben estar enjuagados y secos antes de depositarlos.",
-    "keywords": ["bolsa blanca", "reciclables", "secos", "plastico", "papel", "latas", "vidrio"],
+    "question": "Â¿QuÃ© va en la bolsa blanca?",
+    "answer": "La bolsa blanca es para materiales reciclables secos y limpios: botellas plÃ¡sticas, latas, frascos de vidrio, papel y cartÃ³n. Los residuos deben estar enjuagados y secos antes de depositarlos.",
+    "keywords": ["bolsa blanca", "blanca", "reciclables", "aprovechable", "residuos", "secos", "plastico", "papel", "latas", "vidrio", "caneca blanca", "color blanco"],
     "related": ["faq-002", "faq-003", "faq-004"]
   },
   {
     "id": "faq-002",
-    "question": "¿Qué va en la bolsa negra?",
-    "answer": "La bolsa negra es para residuos ordinarios que no se pueden reciclar: papel sucio, pañales, residuos de baño, colillas de cigarrillo, icopor sucio y cualquier residuo contaminado. No mezcles reciclables aquí.",
-    "keywords": ["bolsa negra", "ordinarios", "basura", "pañales", "no reciclables", "contaminados"],
+    "question": "Â¿QuÃ© va en la bolsa negra?",
+    "answer": "La bolsa negra es para residuos ordinarios que no se pueden reciclar: papel sucio, paÃ±ales, residuos de baÃ±o, colillas de cigarrillo, icopor sucio y cualquier residuo contaminado. No mezcles reciclables aquÃ­.",
+    "keywords": ["bolsa negra", "ordinarios", "basura", "paÃ±ales", "no reciclables", "contaminados"],
     "related": ["faq-001", "faq-003"]
   },
   {
     "id": "faq-003",
-    "question": "¿Qué va en la bolsa verde?",
-    "answer": "La bolsa verde es para residuos orgánicos: restos de frutas, verduras, comida cocida, cáscaras de huevo, posos de café y restos de jardín. Estos residuos se pueden compostar.",
-    "keywords": ["bolsa verde", "organicos", "compost", "frutas", "verduras", "restos comida"],
+    "question": "Â¿QuÃ© va en la bolsa verde?",
+    "answer": "La bolsa verde es para residuos orgÃ¡nicos: restos de frutas, verduras, comida cocida, cÃ¡scaras de huevo, posos de cafÃ© y restos de jardÃ­n. Estos residuos se pueden compostar.",
+    "keywords": ["bolsa verde", "verde", "organicos", "compost", "frutas", "verduras", "residuos", "caneca verde", "color verde", "restos comida", "aprovechable"],
     "categoryId": "organicos",
     "related": ["faq-001", "faq-002", "faq-015"]
   },
   {
     "id": "faq-004",
-    "question": "¿Cómo reciclo las botellas plásticas?",
-    "answer": "Enjuaga la botella con agua, retira la tapa (puede ser de plástico diferente), aplástala para ahorrar espacio y deposítala en la bolsa blanca o en el punto azul de reciclaje más cercano.",
+    "question": "Â¿CÃ³mo reciclo las botellas plÃ¡sticas?",
+    "answer": "Enjuaga la botella con agua, retira la tapa (puede ser de plÃ¡stico diferente), aplÃ¡stala para ahorrar espacio y deposÃ­tala en la bolsa blanca o en el punto azul de reciclaje mÃ¡s cercano.",
     "keywords": ["botella plastica", "PET", "reciclar plastico", "enjuagar", "aplastar", "punto azul"],
     "categoryId": "plastico",
     "related": ["faq-001", "faq-005", "faq-006"]
   },
   {
     "id": "faq-005",
-    "question": "¿El icopor (poliestireno) se puede reciclar?",
-    "answer": "El icopor limpio y seco sí se puede reciclar en algunos puntos de acopio especializados. Sin embargo, la mayoría de rutas de reciclaje ordinarias no lo aceptan. Verifica con tu municipio o busca empresas recuperadoras de icopor en tu ciudad.",
+    "question": "Â¿El icopor (poliestireno) se puede reciclar?",
+    "answer": "El icopor limpio y seco sÃ­ se puede reciclar en algunos puntos de acopio especializados. Sin embargo, la mayorÃ­a de rutas de reciclaje ordinarias no lo aceptan. Verifica con tu municipio o busca empresas recuperadoras de icopor en tu ciudad.",
     "keywords": ["icopor", "poliestireno", "espuma", "telgopor", "reciclar icopor", "punto acopio"],
     "categoryId": "plastico",
     "related": ["faq-004", "faq-006"]
   },
   {
     "id": "faq-006",
-    "question": "¿Las bolsas plásticas se pueden reciclar?",
-    "answer": "Las bolsas plásticas limpias y secas se pueden reciclar, pero no en los contenedores normales. Llévales a puntos de acopio especiales en supermercados como Éxito, Jumbo o Carulla que tienen contenedores específicos para bolsas plásticas.",
+    "question": "Â¿Las bolsas plÃ¡sticas se pueden reciclar?",
+    "answer": "Las bolsas plÃ¡sticas limpias y secas se pueden reciclar, pero no en los contenedores normales. LlÃ©vales a puntos de acopio especiales en supermercados como Ã‰xito, Jumbo o Carulla que tienen contenedores especÃ­ficos para bolsas plÃ¡sticas.",
     "keywords": ["bolsas plasticas", "reciclar bolsas", "supermercado", "punto acopio bolsas", "plastico flexible"],
     "categoryId": "plastico",
     "related": ["faq-004", "faq-005", "faq-001"]
   },
   {
     "id": "faq-007",
-    "question": "¿Cómo reciclo el cartón de las cajas?",
-    "answer": "Aplana las cajas de cartón para ocupar menos espacio, retíra cualquier cinta adhesiva o grapa si es posible, asegúrate de que estén secas y sin manchas de grasa, y deposítalas en la bolsa blanca o en un punto de acopio.",
+    "question": "Â¿CÃ³mo reciclo el cartÃ³n de las cajas?",
+    "answer": "Aplana las cajas de cartÃ³n para ocupar menos espacio, retÃ­ra cualquier cinta adhesiva o grapa si es posible, asegÃºrate de que estÃ©n secas y sin manchas de grasa, y deposÃ­talas en la bolsa blanca o en un punto de acopio.",
     "keywords": ["carton", "cajas", "reciclar carton", "aplanar", "papel carton", "cinta"],
     "categoryId": "papel-carton",
     "related": ["faq-008", "faq-009", "faq-001"]
   },
   {
     "id": "faq-008",
-    "question": "¿La caja de pizza se puede reciclar?",
-    "answer": "Solo la parte superior de la caja de pizza que no esté manchada con grasa se puede reciclar. La parte inferior, al estar impregnada de grasa, contamina el papel y debe ir a la bolsa negra. Separa ambas partes.",
+    "question": "Â¿La caja de pizza se puede reciclar?",
+    "answer": "Solo la parte superior de la caja de pizza que no estÃ© manchada con grasa se puede reciclar. La parte inferior, al estar impregnada de grasa, contamina el papel y debe ir a la bolsa negra. Separa ambas partes.",
     "keywords": ["caja pizza", "grasa carton", "reciclar pizza", "papel graso", "contaminado"],
     "categoryId": "papel-carton",
     "related": ["faq-007", "faq-009"]
   },
   {
     "id": "faq-009",
-    "question": "¿El papel higiénico usado se puede reciclar?",
-    "answer": "No. El papel higiénico, las servilletas usadas y los pañuelos desechables no se pueden reciclar porque están contaminados con fluidos biológicos. Deposítalos en la bolsa negra.",
-    "keywords": ["papel higienico", "servilletas", "pañuelos", "no reciclar papel", "higienico"],
+    "question": "Â¿El papel higiÃ©nico usado se puede reciclar?",
+    "answer": "No. El papel higiÃ©nico, las servilletas usadas y los paÃ±uelos desechables no se pueden reciclar porque estÃ¡n contaminados con fluidos biolÃ³gicos. DeposÃ­talos en la bolsa negra.",
+    "keywords": ["papel higienico", "servilletas", "paÃ±uelos", "no reciclar papel", "higienico"],
     "categoryId": "papel-carton",
     "related": ["faq-007", "faq-008", "faq-002"]
   },
   {
     "id": "faq-010",
-    "question": "¿Cómo reciclo las botellas de vidrio?",
-    "answer": "Enjuaga la botella, retira la tapa metálica o plástica (deposítala en su contenedor), y coloca la botella en la bolsa blanca o en el punto de reciclaje. No es necesario quitar las etiquetas de papel.",
+    "question": "Â¿CÃ³mo reciclo las botellas de vidrio?",
+    "answer": "Enjuaga la botella, retira la tapa metÃ¡lica o plÃ¡stica (deposÃ­tala en su contenedor), y coloca la botella en la bolsa blanca o en el punto de reciclaje. No es necesario quitar las etiquetas de papel.",
     "keywords": ["botella vidrio", "reciclar vidrio", "frasco", "enjuagar vidrio", "tapa"],
     "categoryId": "vidrio",
     "related": ["faq-011", "faq-012", "faq-001"]
   },
   {
     "id": "faq-011",
-    "question": "¿Los espejos y vidrios de ventana se pueden reciclar?",
-    "answer": "No. Los espejos, vidrios de ventana, vidrio templado y cerámica no se pueden reciclar junto con las botellas porque tienen una composición química diferente que contamina el proceso. Llévalos a un punto de residuos especiales.",
+    "question": "Â¿Los espejos y vidrios de ventana se pueden reciclar?",
+    "answer": "No. Los espejos, vidrios de ventana, vidrio templado y cerÃ¡mica no se pueden reciclar junto con las botellas porque tienen una composiciÃ³n quÃ­mica diferente que contamina el proceso. LlÃ©valos a un punto de residuos especiales.",
     "keywords": ["espejo", "vidrio ventana", "vidrio templado", "ceramica", "no reciclar vidrio"],
     "categoryId": "vidrio",
     "related": ["faq-010", "faq-012"]
   },
   {
     "id": "faq-012",
-    "question": "¿Qué hago con el vidrio roto?",
-    "answer": "Envuelve el vidrio roto en varias capas de papel periódico y luego en una bolsa resistente antes de desecharlo. Etiquétalo como 'VIDRIO ROTO' para proteger a los recolectores. Deposítalo en la bolsa negra, nunca suelto.",
+    "question": "Â¿QuÃ© hago con el vidrio roto?",
+    "answer": "Envuelve el vidrio roto en varias capas de papel periÃ³dico y luego en una bolsa resistente antes de desecharlo. EtiquÃ©talo como 'VIDRIO ROTO' para proteger a los recolectores. DeposÃ­talo en la bolsa negra, nunca suelto.",
     "keywords": ["vidrio roto", "vidrio peligroso", "envolver vidrio", "corte", "residuo especial"],
     "categoryId": "vidrio",
     "related": ["faq-010", "faq-011"]
   },
   {
     "id": "faq-013",
-    "question": "¿Dónde deposito las pilas usadas?",
-    "answer": "Las pilas no deben ir en la basura ordinaria porque contienen metales pesados tóxicos como mercurio y cadmio. En Colombia puedes llevarlas a los puntos de acopio en supermercados, ferreterías y tiendas de electrónica que participan en programas de posconsumo como los de Tronex o Alkosto.",
+    "question": "Â¿DÃ³nde deposito las pilas usadas?",
+    "answer": "Las pilas no deben ir en la basura ordinaria porque contienen metales pesados tÃ³xicos como mercurio y cadmio. En Colombia puedes llevarlas a los puntos de acopio en supermercados, ferreterÃ­as y tiendas de electrÃ³nica que participan en programas de posconsumo como los de Tronex o Alkosto.",
     "keywords": ["pilas", "baterias", "residuo peligroso", "mercurio", "posconsumo", "tronex", "punto acopio pilas"],
     "categoryId": "peligrosos",
     "related": ["faq-014", "faq-025", "faq-026"]
   },
   {
     "id": "faq-014",
-    "question": "¿Qué hago con los medicamentos vencidos?",
-    "answer": "Los medicamentos vencidos o no usados no deben tirarse al inodoro ni a la basura. En Colombia, el programa 'PUNTO AZUL Medicamentos Posconsumo' de ANDI permite devolverlos gratuitamente en farmacias y droguerías participantes.",
+    "question": "Â¿QuÃ© hago con los medicamentos vencidos?",
+    "answer": "Los medicamentos vencidos o no usados no deben tirarse al inodoro ni a la basura. En Colombia, el programa 'PUNTO AZUL Medicamentos Posconsumo' de ANDI permite devolverlos gratuitamente en farmacias y droguerÃ­as participantes.",
     "keywords": ["medicamentos vencidos", "farmacias", "posconsumo", "punto azul", "medicamentos", "droguerias"],
     "categoryId": "peligrosos",
     "related": ["faq-013", "faq-025"]
   },
   {
     "id": "faq-015",
-    "question": "¿Puedo hacer compost en casa?",
-    "answer": "Sí. Puedes hacer compost con los residuos orgánicos de cocina usando una compostera casera o un balde ventilado. Alterna capas de residuos húmedos (frutas, verduras) con secos (hojas, cartón troceado). En 2-3 meses tendrás abono para tus plantas.",
+    "question": "Â¿Puedo hacer compost en casa?",
+    "answer": "SÃ­. Puedes hacer compost con los residuos orgÃ¡nicos de cocina usando una compostera casera o un balde ventilado. Alterna capas de residuos hÃºmedos (frutas, verduras) con secos (hojas, cartÃ³n troceado). En 2-3 meses tendrÃ¡s abono para tus plantas.",
     "keywords": ["compost", "compostar", "abono casero", "compostera", "organicos", "residuos cocina"],
     "categoryId": "organicos",
     "related": ["faq-003", "faq-016"]
   },
   {
     "id": "faq-016",
-    "question": "¿Las cáscaras de huevo se pueden compostar?",
-    "answer": "Sí, las cáscaras de huevo son un excelente material para compostar porque aportan calcio al abono. Puedes triturarlas un poco antes de agregarlas a la compostera para acelerar su descomposición.",
+    "question": "Â¿Las cÃ¡scaras de huevo se pueden compostar?",
+    "answer": "SÃ­, las cÃ¡scaras de huevo son un excelente material para compostar porque aportan calcio al abono. Puedes triturarlas un poco antes de agregarlas a la compostera para acelerar su descomposiciÃ³n.",
     "keywords": ["cascara huevo", "huevo", "compostar", "calcio", "organicos", "compostera"],
     "categoryId": "organicos",
     "related": ["faq-015", "faq-003"]
   },
   {
     "id": "faq-017",
-    "question": "¿Cómo reciclo las latas de aluminio?",
-    "answer": "Enjuaga la lata, aplástala si puedes para ahorrar espacio y deposítala en la bolsa blanca o en un punto de reciclaje. El aluminio es uno de los materiales más valiosos del reciclaje; reciclarlo consume un 95% menos de energía que producirlo nuevo.",
+    "question": "Â¿CÃ³mo reciclo las latas de aluminio?",
+    "answer": "Enjuaga la lata, aplÃ¡stala si puedes para ahorrar espacio y deposÃ­tala en la bolsa blanca o en un punto de reciclaje. El aluminio es uno de los materiales mÃ¡s valiosos del reciclaje; reciclarlo consume un 95% menos de energÃ­a que producirlo nuevo.",
     "keywords": ["lata aluminio", "reciclar latas", "aluminio", "gaseosa", "cerveza", "metal"],
     "categoryId": "metales",
     "related": ["faq-018", "faq-001"]
   },
   {
     "id": "faq-018",
-    "question": "¿Qué hago con los aerosoles vacíos?",
-    "answer": "Los aerosoles completamente vacíos (sin gas ni producto) se pueden reciclar como metal en la bolsa blanca. Si todavía tienen contenido, son residuos peligrosos y debes llevarlos a un punto de acopio especializado.",
+    "question": "Â¿QuÃ© hago con los aerosoles vacÃ­os?",
+    "answer": "Los aerosoles completamente vacÃ­os (sin gas ni producto) se pueden reciclar como metal en la bolsa blanca. Si todavÃ­a tienen contenido, son residuos peligrosos y debes llevarlos a un punto de acopio especializado.",
     "keywords": ["aerosol", "spray", "lata presurizada", "reciclar aerosol", "metal", "peligroso"],
     "categoryId": "metales",
     "related": ["faq-017", "faq-013"]
   },
   {
     "id": "faq-019",
-    "question": "¿Dónde reciclo mi celular viejo?",
-    "answer": "En Colombia puedes llevar tu celular viejo a los puntos de recolección RAEE de operadores como Claro, Movistar y Tigo, o a tiendas de marcas como Samsung y Apple. También funcionan los puntos de acopio de la ANDI y algunas alcaldías organizan jornadas gratuitas.",
+    "question": "Â¿DÃ³nde reciclo mi celular viejo?",
+    "answer": "En Colombia puedes llevar tu celular viejo a los puntos de recolecciÃ³n RAEE de operadores como Claro, Movistar y Tigo, o a tiendas de marcas como Samsung y Apple. TambiÃ©n funcionan los puntos de acopio de la ANDI y algunas alcaldÃ­as organizan jornadas gratuitas.",
     "keywords": ["celular viejo", "reciclar celular", "RAEE", "electronicos", "telefono", "punto recoleccion"],
     "categoryId": "electronicos",
     "related": ["faq-020", "faq-021"]
   },
   {
     "id": "faq-020",
-    "question": "¿Cómo entrego mi computador para reciclaje?",
+    "question": "Â¿CÃ³mo entrego mi computador para reciclaje?",
     "answer": "Antes de entregar tu computador, realiza un borrado seguro de todos tus datos. Puedes llevarlo a los puntos RAEE de fabricantes como HP, Lenovo o Dell, o a empresas gestoras de RAEE certificadas en Colombia como Green Solution o eRecupera.",
     "keywords": ["computador", "portatil", "laptop", "reciclar computador", "RAEE", "borrar datos"],
     "categoryId": "electronicos",
@@ -159,106 +159,109 @@
   },
   {
     "id": "faq-021",
-    "question": "¿Qué son los RAEE?",
-    "answer": "RAEE significa Residuos de Aparatos Eléctricos y Electrónicos. Son todos los dispositivos que funcionan con electricidad o baterías al final de su vida útil: celulares, computadores, televisores, electrodomésticos. En Colombia su gestión está regulada por la Resolución 1297 de 2010.",
+    "question": "Â¿QuÃ© son los RAEE?",
+    "answer": "RAEE significa Residuos de Aparatos ElÃ©ctricos y ElectrÃ³nicos. Son todos los dispositivos que funcionan con electricidad o baterÃ­as al final de su vida Ãºtil: celulares, computadores, televisores, electrodomÃ©sticos. En Colombia su gestiÃ³n estÃ¡ regulada por la ResoluciÃ³n 1297 de 2010.",
     "keywords": ["RAEE", "electronicos residuos", "aparatos electricos", "ley electronica", "resolucion 1297"],
     "categoryId": "electronicos",
     "related": ["faq-019", "faq-020"]
   },
   {
     "id": "faq-022",
-    "question": "¿Qué es el aceite de cocina usado y cómo lo reciclo?",
-    "answer": "El aceite de cocina usado es un residuo peligroso que no debe verterse por el desagüe porque contamina el agua. Guárdalo en su botella original u otro recipiente cerrado y llévalo a puntos de acopio. En Colombia, empresas como BioAceites y algunas alcaldías tienen rutas de recolección.",
-    "keywords": ["aceite cocina", "aceite usado", "reciclar aceite", "desagüe", "biodiesel", "BioAceites"],
+    "question": "Â¿QuÃ© es el aceite de cocina usado y cÃ³mo lo reciclo?",
+    "answer": "El aceite de cocina usado es un residuo peligroso que no debe verterse por el desagÃ¼e porque contamina el agua. GuÃ¡rdalo en su botella original u otro recipiente cerrado y llÃ©valo a puntos de acopio. En Colombia, empresas como BioAceites y algunas alcaldÃ­as tienen rutas de recolecciÃ³n.",
+    "keywords": ["aceite cocina", "aceite usado", "reciclar aceite", "desagÃ¼e", "biodiesel", "BioAceites"],
     "categoryId": "peligrosos",
     "related": ["faq-013", "faq-014"]
   },
   {
     "id": "faq-023",
-    "question": "¿Puedo tirar las lámparas fluorescentes en la basura?",
-    "answer": "No. Las lámparas fluorescentes y de bajo consumo contienen mercurio y son residuos peligrosos. En Colombia debes llevarlas a los puntos de posconsumo de programas como 'Lúmina' o a ferreterías y supermercados participantes.",
+    "question": "Â¿Puedo tirar las lÃ¡mparas fluorescentes en la basura?",
+    "answer": "No. Las lÃ¡mparas fluorescentes y de bajo consumo contienen mercurio y son residuos peligrosos. En Colombia debes llevarlas a los puntos de posconsumo de programas como 'LÃºmina' o a ferreterÃ­as y supermercados participantes.",
     "keywords": ["lampara fluorescente", "ahorro energia", "mercurio", "luminaria", "posconsumo", "lumina"],
     "categoryId": "peligrosos",
     "related": ["faq-013", "faq-025"]
   },
   {
     "id": "faq-024",
-    "question": "¿Cómo separo los residuos en el hogar?",
-    "answer": "Lo más sencillo es tener tres recipientes en la cocina: bolsa verde para orgánicos (restos de comida), bolsa blanca para reciclables secos (plástico, vidrio, papel, metal) y bolsa negra para lo que no se puede clasificar en las anteriores. Esta separación en la fuente es clave para el reciclaje efectivo.",
+    "question": "Â¿CÃ³mo separo los residuos en el hogar?",
+    "answer": "Lo mÃ¡s sencillo es tener tres recipientes en la cocina: bolsa verde para orgÃ¡nicos (restos de comida), bolsa blanca para reciclables secos (plÃ¡stico, vidrio, papel, metal) y bolsa negra para lo que no se puede clasificar en las anteriores. Esta separaciÃ³n en la fuente es clave para el reciclaje efectivo.",
     "keywords": ["separar residuos", "clasificar basura", "tres bolsas", "en casa", "separacion fuente", "tres contenedores"],
     "related": ["faq-001", "faq-002", "faq-003"]
   },
   {
     "id": "faq-025",
-    "question": "¿Qué es el posconsumo en Colombia?",
-    "answer": "El posconsumo en Colombia es el sistema de recolección y gestión de residuos de productos específicos (pilas, medicamentos, plaguicidas, llantas, lámparas). Los fabricantes y comercializadores tienen la obligación legal de financiar la recolección de sus productos al final de la vida útil, según la Política de Gestión de Residuos de la ANLA.",
+    "question": "Â¿QuÃ© es el posconsumo en Colombia?",
+    "answer": "El posconsumo en Colombia es el sistema de recolecciÃ³n y gestiÃ³n de residuos de productos especÃ­ficos (pilas, medicamentos, plaguicidas, llantas, lÃ¡mparas). Los fabricantes y comercializadores tienen la obligaciÃ³n legal de financiar la recolecciÃ³n de sus productos al final de la vida Ãºtil, segÃºn la PolÃ­tica de GestiÃ³n de Residuos de la ANLA.",
     "keywords": ["posconsumo", "recoleccion productos", "ANLA", "fabricantes", "ley colombiana", "residuos especiales"],
     "related": ["faq-013", "faq-014", "faq-023"]
   },
   {
     "id": "faq-026",
-    "question": "¿Con qué frecuencia recogen los reciclables en Colombia?",
-    "answer": "La frecuencia de recolección varía según el municipio y la empresa prestadora del servicio. En Bogotá, la recolección de reciclables (bolsa blanca) se hace 2 veces por semana en la mayoría de barrios, mientras que la orgánica (bolsa verde) puede ser diaria. Consulta el horario con tu empresa de aseo local.",
+    "question": "Â¿Con quÃ© frecuencia recogen los reciclables en Colombia?",
+    "answer": "La frecuencia de recolecciÃ³n varÃ­a segÃºn el municipio y la empresa prestadora del servicio. En BogotÃ¡, la recolecciÃ³n de reciclables (bolsa blanca) se hace 2 veces por semana en la mayorÃ­a de barrios, mientras que la orgÃ¡nica (bolsa verde) puede ser diaria. Consulta el horario con tu empresa de aseo local.",
     "keywords": ["frecuencia recoleccion", "dias recoleccion", "empresa aseo", "bogota", "municipio", "horario basura"],
     "related": ["faq-024", "faq-027"]
   },
   {
     "id": "faq-027",
-    "question": "¿Qué pasa si mezclo los residuos?",
-    "answer": "Si mezclas reciclables con orgánicos o residuos ordinarios, contaminas los materiales reciclables y ya no sirven para el proceso. Esto hace que todo vaya al relleno sanitario, desperdiciando recursos valiosos. La separación en la fuente es fundamental para que el reciclaje funcione.",
+    "question": "Â¿QuÃ© pasa si mezclo los residuos?",
+    "answer": "Si mezclas reciclables con orgÃ¡nicos o residuos ordinarios, contaminas los materiales reciclables y ya no sirven para el proceso. Esto hace que todo vaya al relleno sanitario, desperdiciando recursos valiosos. La separaciÃ³n en la fuente es fundamental para que el reciclaje funcione.",
     "keywords": ["mezclar residuos", "contaminar reciclaje", "relleno sanitario", "separacion incorrecta", "importancia reciclar"],
     "related": ["faq-024", "faq-001", "faq-002"]
   },
   {
     "id": "faq-028",
-    "question": "¿Cómo reciclo el papel aluminio?",
-    "answer": "El papel aluminio limpio se puede reciclar con los metales en la bolsa blanca. Si está muy sucio con grasa o restos de alimentos, debes tirarlo en la bolsa negra. Una buena práctica es limpiar el papel aluminio y reutilizarlo varias veces antes de desecharlo.",
+    "question": "Â¿CÃ³mo reciclo el papel aluminio?",
+    "answer": "El papel aluminio limpio se puede reciclar con los metales en la bolsa blanca. Si estÃ¡ muy sucio con grasa o restos de alimentos, debes tirarlo en la bolsa negra. Una buena prÃ¡ctica es limpiar el papel aluminio y reutilizarlo varias veces antes de desecharlo.",
     "keywords": ["papel aluminio", "aluminio foil", "reciclar aluminio", "metal", "sucio", "reutilizar"],
     "categoryId": "metales",
     "related": ["faq-017", "faq-018"]
   },
   {
     "id": "faq-029",
-    "question": "¿Los tetrapak (cajas de jugo o leche) se pueden reciclar?",
-    "answer": "Sí, los envases Tetra Pak se pueden reciclar, pero requieren un proceso especial porque son multicapa (cartón, aluminio y plástico). En Colombia, la empresa Tetra Pak tiene alianzas con recicladores de oficio y puntos de recolección en supermercados. Enjuaga el envase, aplástalo y llévalo a estos puntos.",
+    "question": "Â¿Los tetrapak (cajas de jugo o leche) se pueden reciclar?",
+    "answer": "SÃ­, los envases Tetra Pak se pueden reciclar, pero requieren un proceso especial porque son multicapa (cartÃ³n, aluminio y plÃ¡stico). En Colombia, la empresa Tetra Pak tiene alianzas con recicladores de oficio y puntos de recolecciÃ³n en supermercados. Enjuaga el envase, aplÃ¡stalo y llÃ©valo a estos puntos.",
     "keywords": ["tetrapak", "caja jugo", "caja leche", "multicapa", "reciclar tetrapak", "carton aluminio"],
     "categoryId": "papel-carton",
     "related": ["faq-007", "faq-030"]
   },
   {
     "id": "faq-030",
-    "question": "¿Qué es la economía circular?",
-    "answer": "La economía circular es un modelo económico que busca eliminar los residuos manteniendo los materiales en uso el mayor tiempo posible. En lugar del modelo lineal 'producir-usar-tirar', la economía circular propone reparar, reutilizar, refabricar y reciclar para cerrar el ciclo de vida de los productos.",
+    "question": "Â¿QuÃ© es la economÃ­a circular?",
+    "answer": "La economÃ­a circular es un modelo econÃ³mico que busca eliminar los residuos manteniendo los materiales en uso el mayor tiempo posible. En lugar del modelo lineal 'producir-usar-tirar', la economÃ­a circular propone reparar, reutilizar, refabricar y reciclar para cerrar el ciclo de vida de los productos.",
     "keywords": ["economia circular", "sostenibilidad", "ciclo vida", "reutilizar", "reparar", "modelo economico"],
     "related": ["faq-031", "faq-032"]
   },
   {
     "id": "faq-031",
-    "question": "¿Cómo puedo reducir mis residuos plásticos?",
-    "answer": "Algunas estrategias prácticas: usa bolsas reutilizables para las compras, lleva tu propia botella de agua, opta por productos con menos empaque, compra a granel cuando sea posible, usa recipientes de vidrio o acero para guardar alimentos, y elige productos con empaques reciclables o biodegradables.",
+    "question": "Â¿CÃ³mo puedo reducir mis residuos plÃ¡sticos?",
+    "answer": "Algunas estrategias prÃ¡cticas: usa bolsas reutilizables para las compras, lleva tu propia botella de agua, opta por productos con menos empaque, compra a granel cuando sea posible, usa recipientes de vidrio o acero para guardar alimentos, y elige productos con empaques reciclables o biodegradables.",
     "keywords": ["reducir plastico", "menos plastico", "bolsa reutilizable", "botella reutilizable", "empaque", "sostenible"],
     "related": ["faq-004", "faq-006", "faq-030"]
   },
   {
     "id": "faq-032",
-    "question": "¿Qué puedo hacer con ropa y textiles viejos?",
-    "answer": "La ropa en buen estado puedes donarla a fundaciones, bancos de ropa o venderla de segunda mano. Si está muy deteriorada, algunos municipios tienen contenedores de textiles. También puedes llevarla a tiendas que hacen programas de recolección como H&M o empresas de upcycling en Colombia.",
+    "question": "Â¿QuÃ© puedo hacer con ropa y textiles viejos?",
+    "answer": "La ropa en buen estado puedes donarla a fundaciones, bancos de ropa o venderla de segunda mano. Si estÃ¡ muy deteriorada, algunos municipios tienen contenedores de textiles. TambiÃ©n puedes llevarla a tiendas que hacen programas de recolecciÃ³n como H&M o empresas de upcycling en Colombia.",
     "keywords": ["ropa vieja", "textiles", "donar ropa", "segunda mano", "upcycling", "reciclaje ropa"],
     "related": ["faq-030", "faq-031"]
   },
   {
     "id": "faq-033",
-    "question": "¿Los recicladores de oficio en Colombia cómo trabajan?",
-    "answer": "Los recicladores de oficio son trabajadores independientes que recolectan materiales reciclables directamente en la fuente o en la calle. En Colombia son reconocidos como prestadores del servicio público de aseo y están organizados en cooperativas y asociaciones. Apoyarlos es apoyar el reciclaje formal.",
+    "question": "Â¿Los recicladores de oficio en Colombia cÃ³mo trabajan?",
+    "answer": "Los recicladores de oficio son trabajadores independientes que recolectan materiales reciclables directamente en la fuente o en la calle. En Colombia son reconocidos como prestadores del servicio pÃºblico de aseo y estÃ¡n organizados en cooperativas y asociaciones. Apoyarlos es apoyar el reciclaje formal.",
     "keywords": ["recicladores", "recicladores oficio", "cooperativa", "reciclaje Colombia", "separacion fuente", "servicio aseo"],
     "related": ["faq-024", "faq-025", "faq-026"]
   },
   {
     "id": "faq-034",
-    "question": "¿Cómo sé qué plástico es reciclable?",
-    "answer": "Los plásticos tienen un símbolo de reciclaje con un número del 1 al 7. Los más reciclables son el PET (1, botellas de agua) y el HDPE (2, envases de detergente). El PVC (3) y el poliestireno (6, icopor) son los más difíciles de reciclar. Busca el número en el fondo del envase.",
+    "question": "Â¿CÃ³mo sÃ© quÃ© plÃ¡stico es reciclable?",
+    "answer": "Los plÃ¡sticos tienen un sÃ­mbolo de reciclaje con un nÃºmero del 1 al 7. Los mÃ¡s reciclables son el PET (1, botellas de agua) y el HDPE (2, envases de detergente). El PVC (3) y el poliestireno (6, icopor) son los mÃ¡s difÃ­ciles de reciclar. Busca el nÃºmero en el fondo del envase.",
     "keywords": ["tipos plastico", "numero plastico", "PET", "HDPE", "PVC", "simbolo reciclaje", "codigo resina"],
     "categoryId": "plastico",
     "related": ["faq-004", "faq-005", "faq-006"]
   }
 ]
+
+
+

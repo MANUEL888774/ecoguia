@@ -1,4 +1,4 @@
-export interface Category {
+﻿export interface Category {
   id: string
   name: string
   color: string
@@ -35,4 +35,6 @@ export interface Message {
   timestamp: number
   faqId?: string
   categoryId?: string
+  suggestions?: Faq[]
 }
+

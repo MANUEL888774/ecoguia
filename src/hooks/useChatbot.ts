@@ -1,4 +1,4 @@
-import { useState, useCallback } from 'react'
+﻿import { useState, useCallback } from 'react'
 import { search } from '../lib/chatbot/engine'
 import faqsData from '../data/faqs.json'
 import type { Message, Faq } from '../types'
@@ -33,18 +33,10 @@ export function useChatbot(): UseChatbotReturn {
   const sendMessage = useCallback((text: string) => {
     const trimmed = text.trim()
     if (!trimmed) return
-
-    const userMessage: Message = {
-      id: generateId(),
-      role: 'user',
-      text: trimmed,
-      timestamp: Date.now(),
-    }
-
+    const userMessage: Message = { id: generateId(), role: 'user', text: trimmed, timestamp: Date.now() }
     setMessages((prev) => [...prev, userMessage])
     setIsTyping(true)
-
-    const delay = 300 + Math.random() * 200 // 300–500 ms
+    const delay = 300 + Math.random() * 200
     setTimeout(() => {
       const response = search(trimmed, faqs)
       const botMessage: Message = {
@@ -54,34 +46,17 @@ export function useChatbot(): UseChatbotReturn {
         timestamp: Date.now(),
         faqId: response.matchedFaq?.id,
         categoryId: response.matchedFaq?.categoryId,
+        suggestions: response.suggestions,
       }
       setMessages((prev) => [...prev, botMessage])
       setIsTyping(false)
     }, delay)
   }, [])
 
-  const clearHistory = useCallback(() => {
-    setMessages([])
-  }, [])
+  const clearHistory = useCallback(() => { setMessages([]) }, [])
+  const openChat = useCallback((text?: string) => { setIsOpen(true); if (text) setPrefillText(text) }, [])
+  const closeChat = useCallback(() => { setIsOpen(false) }, [])
 
-  const openChat = useCallback((text?: string) => {
-    setIsOpen(true)
-    if (text) setPrefillText(text)
-  }, [])
-
-  const closeChat = useCallback(() => {
-    setIsOpen(false)
-  }, [])
-
-  return {
-    messages,
-    isTyping,
-    isOpen,
-    sendMessage,
-    clearHistory,
-    openChat,
-    closeChat,
-    prefillText,
-    setPrefillText,
-  }
+  return { messages, isTyping, isOpen, sendMessage, clearHistory, openChat, closeChat, prefillText, setPrefillText }
 }
+
