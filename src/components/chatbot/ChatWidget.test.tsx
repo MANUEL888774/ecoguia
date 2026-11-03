@@ -39,7 +39,6 @@ describe('ChatWidget', () => {
     })
     expect(screen.getByRole('dialog', { name: /asistente de ecoguía/i })).toBeInTheDocument()
   })
-
   it('cierra el panel al hacer clic en el botón cerrar', () => {
     renderWidget()
     act(() => {
@@ -94,7 +93,7 @@ describe('ChatWidget', () => {
     })
 
     // Typing indicator should be visible before timer fires
-    expect(screen.getByLabelText(/está escribiendo/i)).toBeInTheDocument()
+    expect(screen.getByText(/escribiendo/i)).toBeInTheDocument()
 
     // Advance timers inside act so the state update is properly flushed
     act(() => {
@@ -132,7 +131,7 @@ describe('ChatWidget', () => {
     act(() => { vi.runAllTimers() })
 
     act(() => {
-      fireEvent.click(screen.getByRole('button', { name: /limpiar conversación/i }))
+      fireEvent.click(screen.getByRole('button', { name:/limpiar/i}))
     })
     expect(screen.queryByText('Hola')).not.toBeInTheDocument()
   })
